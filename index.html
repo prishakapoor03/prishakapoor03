@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prisha Kapoor – HR and People Analytics</title>
+<style>
+:root{
+  --bg:#ffffff; --surface:#f2f6fc; --text:#16233a; --muted:#4a5a73;
+  --blue:#1f4e9c; --blue-dark:#14376f; --orange:#f08a24; --orange-text:#a54b00; --line:#d5deec;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1829; --surface:#17233a; --text:#e8eef8; --muted:#aab8cf;
+    --blue:#7ab0ff; --blue-dark:#4f86d9; --orange:#f5a04a; --orange-text:#f5a04a; --line:#2b3b58;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:18px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:var(--blue)}
+a:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+header.top{background:var(--surface);border-bottom:4px solid var(--orange)}
+nav{display:flex;flex-wrap:wrap;gap:6px 22px;padding:16px 0;font-size:16px}
+nav a{text-decoration:none;color:var(--blue);font-weight:600}
+nav a:hover{text-decoration:underline}
+.hero{display:grid;grid-template-columns:240px 1fr;gap:36px;align-items:center;padding:36px 0 52px}
+.photo{width:240px;aspect-ratio:3/4;object-fit:cover;border-radius:12px;border:4px solid var(--blue);background:var(--line);font-size:14px;color:var(--muted)}
+h1{font-size:clamp(2.2rem,6vw,3.2rem);line-height:1.1;margin:0 0 12px;color:var(--blue)}
+.lead{font-size:1.15rem;margin:0 0 20px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:700;text-decoration:none;font-size:16px}
+.btn.primary{background:var(--orange);color:#16233a}
+.btn.secondary{border:2px solid var(--blue);color:var(--blue)}
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+h2{font-size:1.7rem;margin:0 0 24px;color:var(--blue);padding-left:14px;border-left:6px solid var(--orange)}
+h3{font-size:1.1rem;margin:0}
+.item{margin-bottom:28px}
+.item:last-child{margin-bottom:0}
+.meta{color:var(--muted);font-size:15px;margin:2px 0 8px}
+.org{color:var(--orange-text);font-weight:600}
+ul{margin:8px 0 0;padding-left:22px}
+li{margin-bottom:6px}
+.ph{background:#fff1e0;color:#7a3a00;padding:1px 6px;border-radius:4px;font-weight:600}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ph{background:#4a2c10;color:#ffd7a8}}
+figure{margin:0}
+figure img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface);display:block}
+figcaption{color:var(--muted);font-size:15px;margin-top:10px}
+.skills h3{margin-bottom:6px}
+.contact a{font-weight:600}
+footer{padding:28px 0;color:var(--muted);font-size:15px}
+@media (max-width:640px){
+  body{font-size:17px}
+  .hero{grid-template-columns:1fr;text-align:left}
+  .photo{width:180px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <nav aria-label="Page sections">
+      <a href="#about">About</a>
+      <a href="#chart">Chart</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#research">Research and volunteering</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+      <img class="photo" src="profile.jpg" alt="Photo of Prisha Kapoor">
+      <div>
+        <h1>Prisha Kapoor</h1>
+        <p class="lead">Psychology graduate and MSc People Analytics and Human Centric Management student at UCL, seeking graduate opportunities in HR.</p>
+        <div class="btns">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/prisha-kapoor-62b478205">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="about">
+  <h2>About</h2>
+  <p>I'm Prisha Kapoor, a psychology graduate from Christ (Deemed to be University) in Bangalore, now studying MSc People Analytics and Human Centric Management at UCL School of Management in London. I'm interested in how people behave at work, and in using data to understand it.</p>
+  <p>Before UCL, I spent over a year as an HR Analyst at Healthy Jeena Seekho, where I maintained and analysed HR and recruitment data and prepared reports on hiring and workforce processes. I also interned in HR at SML Isuzu Limited, supporting candidate assessment and writing job descriptions. My earlier clinical and research internships gave me a grounding in research methods.</p>
+  <p>Outside of work, I'm UCL's elected Academic Representative for my MSc cohort, and I have led student events and community projects. I'm looking for graduate opportunities across HR, including HR generalist, talent acquisition, people analytics, workforce planning, learning and development, HR operations and employee experience.</p>
+</section>
+
+<section id="chart">
+  <h2>Chart</h2>
+  <figure>
+    <img src="images/chart1.png" alt="[PLACEHOLDER: describe what the chart shows]">
+    <figcaption><span class="ph">[PLACEHOLDER]</span> Chart title, what it shows and its source.</figcaption>
+  </figure>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item">
+    <h3>MSc People Analytics and Human Centric Management</h3>
+    <p class="meta"><span class="org">UCL School of Management, London</span> · 09/2026 – 09/2027</p>
+  </div>
+  <div class="item">
+    <h3>BSc (Hons) Psychology</h3>
+    <p class="meta"><span class="org">Christ (Deemed to be University), Bangalore, India</span> · 08/2022 – 05/2025</p>
+    <ul><li>CGPA: 3.43/4.0; awarded Meritorious Scholarship in 2023–24 and 2024–25.</li></ul>
+  </div>
+  <div class="item">
+    <h3>CBSE Class XII (93.2%)</h3>
+    <p class="meta"><span class="org">Carmel Convent School, Chandigarh</span> · 04/2021 – 07/2022</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Work experience</h2>
+  <div class="item">
+    <h3>HR Analyst</h3>
+    <p class="meta"><span class="org">Healthy Jeena Seekho</span> · 06/2025 – 08/2026</p>
+    <p>Home healthcare equipment provider (hospital beds, wheelchairs, oxygen machines) with its own stores across multiple cities in northern India.</p>
+    <ul>
+      <li>Maintained and analysed HR and recruitment data to inform workforce and hiring decisions.</li>
+      <li>Prepared and monitored HR reports tracking recruitment activity, timelines and workforce processes.</li>
+      <li>Coordinated talent acquisition activity through structured reporting and process tracking.</li>
+      <li>Monitored compliance and timelines across HR processes to support operational efficiency.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <h3>Human Resources Intern</h3>
+    <p class="meta"><span class="org">SML Isuzu Limited</span> · 05/2024 – 06/2024</p>
+    <p>Listed Indian commercial vehicle manufacturer (buses and light/intermediate trucks) with FY2025 revenue of c. INR 2,405 crore (approx. £210m).</p>
+    <ul>
+      <li>Supported candidate assessment through interviews, evaluating qualifications and organisational fit.</li>
+      <li>Analysed recruitment responses and tracked vacancies advertised on job portals, including LinkedIn.</li>
+      <li>Wrote job descriptions for roles across the organisation and supported employee training programmes.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <h3>Clinical and Research Internships</h3>
+    <p class="meta">2020 – 2023</p>
+    <ul>
+      <li>Dr B.R. Ambedkar Institute of Medical Sciences (Psychiatry): ward rotations, case histories and Mental State Examinations.</li>
+      <li>Fortis Healthcare (Clinical Psychology) and University of Georgia summer research programme: behavioural exposure, literature analysis and research methods.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="leadership">
+  <h2>Leadership and activities</h2>
+  <div class="item">
+    <h3>Academic Representative</h3>
+    <p class="meta"><span class="org">UCL School of Management</span> · 09/2026 – 09/2027</p>
+    <ul>
+      <li>Elected by peers to represent the views of MSc People Analytics and Human Centric Management students, working with academic staff to improve the quality of students' education.</li>
+      <li>Attend the Departmental Student Partnership Committee (DSPC) each term, ensuring the student voice informs departmental decision-making.</li>
+      <li>Gather student feedback regularly, provide constructive input to staff, raise issues where necessary and help resolve student problems; organise social events for the cohort.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <h3>Class Representative and Student Council Member</h3>
+    <p class="meta"><span class="org">Christ University</span> · 12/2023 – 05/2025</p>
+    <ul><li>Represented the School of Psychological Sciences, gathered student feedback, and communicated concerns to staff.</li></ul>
+  </div>
+  <div class="item">
+    <h3>Events Co-coordinator</h3>
+    <p class="meta"><span class="org">Psynergy Psychology Association</span> · 09/2022 – 09/2024</p>
+    <ul><li>Helped deliver the Kaleido psychology fest for 2,000+ attendees; headed a flagship departmental event and designed the annual events calendar.</li></ul>
+  </div>
+  <div class="item">
+    <h3>Project Leader</h3>
+    <p class="meta"><span class="org">Project Disha, Centre for Social Action</span> · 09/2022 – 08/2023</p>
+    <ul><li>Led environmental and community projects supporting 40+ village students and 50+ university support staff.</li></ul>
+  </div>
+</section>
+
+<section id="research">
+  <h2>Research, volunteering and certifications</h2>
+  <div class="item">
+    <h3>Publications</h3>
+    <ul>
+      <li><em>A Taste of Success: The Business behind the Global Beverage Icon</em> (book).</li>
+      <li>Four journal papers on anxiety during Covid, superstition and free will, academic procrastination, and perceived social support.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <h3>Volunteering</h3>
+    <ul>
+      <li>Raised INR 210,000 across four charity campaigns.</li>
+      <li>Taught life skills with Abhyudaya Foundation.</li>
+      <li>Regular community service volunteer since 2016.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <h3>Certifications</h3>
+    <ul>
+      <li>Introduction to Psychology – Yale (Coursera)</li>
+      <li>Organisational Psychology – Cognizavest</li>
+      <li>Marketing Research and Analysis – Swayam</li>
+      <li>Leadership Summit – Delhi University</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <div class="item">
+    <h3>HR and people operations</h3>
+    <p>HR reporting, recruitment and talent acquisition, candidate assessment, job description writing, HR operations, employee engagement, workforce planning, training support.</p>
+  </div>
+  <div class="item">
+    <h3>Analytics and research</h3>
+    <p>Python, data analysis, workforce data, research methods, qualitative research, literature analysis, evidence-based decision-making.</p>
+  </div>
+  <div class="item">
+    <h3>People and business</h3>
+    <p>Organisational psychology, stakeholder communication, team leadership, project coordination.</p>
+  </div>
+  <div class="item">
+    <h3>Languages</h3>
+    <p>English, Hindi.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact" style="border-bottom:0">
+  <h2>Contact</h2>
+  <p>Based in London. I would be glad to hear about graduate HR opportunities.</p>
+  <ul>
+    <li>Email: <a href="mailto:prishakapoor2004@gmail.com">prishakapoor2004@gmail.com</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/prisha-kapoor-62b478205">linkedin.com/in/prisha-kapoor-62b478205</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">© Prisha Kapoor</div>
+</footer>
+
+</body>
+</html>
